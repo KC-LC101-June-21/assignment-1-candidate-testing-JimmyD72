@@ -9,7 +9,7 @@ let candidateName = " ";
 let question = "Who was the first American woman in space? ";
 let correctAnswer = "Sally Ride";
 let candidateAnswer = " ";
-let questions = [" ) Who Was the first American woman in space? \n", " ) True or False: 5 kilometers = 5000 meters? \n", " ) (5+3)/2*10= \n", " ) Given the array [8, 'orbit', 'Trajectory', 45] what is the entry at index 2? \n", " ) What is the minimum crew size for the ISS? \n",];
+let questions = [" 1) Who Was the first American woman in space? \n", " 2) True or False: 5 kilometers = 5000 meters? \n", " 3) (5+3)/2*10= \n", " 4) Given the array [8, 'orbit', 'Trajectory', 45] what is the entry at index 2? \n", " 5) What is the minimum crew size for the ISS? \n",];
 let correctAnswers = ["Sally Ride", "True", "40", "Trajectory", "3"];
 let candidateAnswers = [];
 let quiz = question.length
