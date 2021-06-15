@@ -44,7 +44,7 @@ function gradeQuiz(candidateAnswers) {
   let numberOfCorrectAnswers = Number(0);
   
   for (let i = 0; i<correctAnswers.length; i++) {
-    if(candidateAnswers[i].toLowerCase()==candidateAnswers[i].toLowerCase()){
+    if(candidateAnswers[i].toLowerCase()==correctAnswers[i].toLowerCase()){
       numberOfCorrectAnswers++;
     }
   }
@@ -52,7 +52,7 @@ function gradeQuiz(candidateAnswers) {
      let grade = (numberOfCorrectAnswers/numberOfQuizQuestions)*100;
       console.log(`>>> Overall Grade: ${grade}% (${numberOfCorrectAnswers} of ${numberOfQuizQuestions}`);
 
-if (grade<80){
+if (grade < 80){
   console.log("(>>> Status: FAILED <<<");
 } else{
   console.log(">>> Status: PASSED <<<");
