@@ -54,12 +54,12 @@ function gradeQuiz(candidateAnswers) {
 
 if (grade < 80){
   console.log("(>>> Status: FAILED <<<");
-} else{
+} else (grade >= 80)
   console.log(">>> Status: PASSED <<<");
   return grade;
 }
 
-}
+
 
   
 
